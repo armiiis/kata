@@ -19,6 +19,7 @@ CustomError.prototype.toString = function () {
     return this.message;
 };
 
+
 QUnit.test("test", function (assert) {
     assert.throws(function () {
         fakeBin(null);
