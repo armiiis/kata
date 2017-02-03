@@ -9,7 +9,6 @@ function alphabetPosition(text) {
     }
     if (replaced.length > 1)
         replaced = replaced.slice(0, -1);
-
     return replaced;
 };
 
